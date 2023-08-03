@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="pics/fav.ico">
+    <link href="style.css" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
+
+    <title>Spotify</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="pics/logo.png" alt="Spotify" class="mx-1">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+
+    </nav>
+
+    <!-- Container -->
+
+    <div class="container">
+        
+        <div class="songlist">
+            <h1>Best Of All Time</h1>
+            <div class="songcontainer">
+                <div class="songitem">
+                    <img alt="1" src='pics/nf.jpg'>
+                    <span class="SongName">Kinna Sohna Tenu Rabb Ne Bnaya</span>
+                    <span class="songlistplay"><span class="timestamp">9:38<i id="0"class="far songItemPlay fa-play-circle"></i></span></span>
+
+                </div>
+                <div class="songitem">
+                    <img alt="1"src='pics/nf.jpg'>
+                    <span class="SongName">Akhiyan Udikdiyan</span>
+                    <span class="songlistplay"><span class="timestamp">15:05<i id="1"class="far songItemPlay fa-play-circle"></i></span></span>
+
+                </div>
+                <div class="songitem">
+                    <img alt="1" src='pics/gj.png'>
+                    <span class="SongName">Aapki Dosti</span>
+                    <span class="songlistplay"><span class="timestamp">11:27<i id="2"class="far songItemPlay fa-play-circle"></i></span></span>
+
+                </div>
+                <div class="songitem">
+                    <img alt="1" src='pics/gj.png'>
+                    <span class="SongName">Sajjda</span>
+                    <span class="songlistplay"><span class="timestamp">4:46<i id="3"class="far songItemPlay fa-play-circle"></i></span></span>
+
+                </div>
+                <div class="songitem">
+                    <img alt="1" src='pics/sb.jpg'>
+                    <span class="SongName">Sheesha Yaar Da</span>
+                    <span class="songlistplay"><span class="timestamp">4:40<i id="4"class="far songItemPlay fa-play-circle"></i></span></span>
+
+                </div>
+                <div class="songitem">
+                    <img alt="1" src='pics/bp.jpg' >
+                    <span class="SongName">Filhall</span>
+                    <span class="songlistplay"><span class="timestamp">4:15<i id="5"class="far songItemPlay fa-play-circle"></i></span></span>
+
+                </div>
+                <div class="songitem">
+                    <img alt="1" src='pics/bp.jpg'>
+                    <span class="SongName">Qismat</span>
+                    <span class="songlistplay"><span class="timestamp">4:59<i id="6"class="far songItemPlay fa-play-circle"></i></span></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+
+    </div>
+    <div class="bottom">
+        <input type="range" min="0" max="100" name="range" value="0" id="myProgressBar">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="pics/playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Kinna Sohna Tenu Rabb Ne Bnaya</span>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
